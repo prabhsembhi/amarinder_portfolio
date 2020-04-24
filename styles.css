@@ -1,0 +1,119 @@
+body{
+   /* background-color: rosybrown; */
+   text-align: center;
+}
+
+/* first section (main_image) */
+#title{
+   
+   
+}
+#carouselControls{
+    position: relative;
+}
+
+.navbar{
+    display: block;
+    text-align: center;
+}
+.carousel-inner{
+    z-index: -99;
+    width: 100%;
+}
+.carousel-name{
+    position: relative;
+    top: 250px;
+}
+.controllers{
+    position: absolute;
+    /* top: 0; */
+    bottom: 50px;
+    z-index: 1;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    /* align-items: center; */
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 15%;
+    color: #fff;
+    text-align: center;
+    opacity: .5;
+    transition: opacity .15s ease;
+}
+.next{
+    right: 0;
+}
+.prev{
+    left: 0;
+}
+
+.one{
+   
+     background: url(https://demo.flothemes.com/narcisse-azure/files/2019/01/Nastia_Vesna_Photography_79-2-1200x731.jpg);
+     background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+}
+.two{
+    width: 100%;
+    height: 700px;
+    background: url(https://demo.flothemes.com/narcisse-azure/files/2019/01/Nastia_Vesna_Photography_271-2885x1800.jpg);
+     background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* second section **************/
+
+.thought{
+    width: 100%;
+    margin: auto;
+    height: 200px;
+    background-color: #fff;
+    text-align: center;
+    position: relative;
+    padding: 5%;
+}
+.thought h2{
+    margin: 1%;
+    font-size: 3rem;
+}
+
+.contianer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 300px 300px 300px;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    width: 80%;
+    margin: auto;
+}
+.image-edit{
+  padding: 5px;
+}
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#pic1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+#pic3 {
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+#pic4 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+/*************** footer ****************/
+
+#footer{
+background-color: peru;
+height: 100px;
+width: 100%;
+}
